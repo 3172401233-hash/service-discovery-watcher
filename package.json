@@ -1,0 +1,13 @@
+{
+  "name": "service-discovery-watcher",
+  "version": "1.0.0",
+  "description": "服务发现订阅库：保证消费者只能看到完整快照或版本连续的增量更新",
+  "type": "module",
+  "main": "src/watcher.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
